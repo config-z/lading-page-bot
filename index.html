@@ -5,23 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Sellix </title>
 </head>
 
 <body>
-    <header class="main_header">
+    <header>
         <nav class="wrapper">
             <img class="logo" src="assets/logo.png" alt="sellix logo">
-            <div>
-                <a href=" #">Inicio</a>
-                <a href="#">Dúvidas</a>
-                <a href="#">Sobre</a>
+            <div class="links">
+                <a href=" #">
+                    Inicio
+                    <span class="indicator"></span>
+                </a>
+                <a href="#">
+                    Dúvidas
+                    <span class="indicator"></span>
+                </a>
+                <a href="#">
+                    Jogos
+                    <span class="indicator"></span>
+                </a>
+                <a href="#">
+                    Sobre
+                    <span class="indicator"></span>
+                </a>
+                <button class="premium-button">
+                    <div class="display">
+                        <div id="msg">Seja Premium</div>
+                    </div>
+
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="sign">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                        <path
+                            d="M13 14.0833C15.9915 14.0833 18.4166 11.6582 18.4166 8.66667C18.4166 5.67512 15.9915 3.25 13 3.25C10.0084 3.25 7.58331 5.67512 7.58331 8.66667C7.58331 11.6582 10.0084 14.0833 13 14.0833ZM13 14.0833C15.2985 14.0833 17.5029 14.9964 19.1282 16.6217C20.7536 18.2471 21.6666 20.4515 21.6666 22.75M13 14.0833C10.7014 14.0833 8.49704 14.9964 6.87172 16.6217C5.24641 18.2471 4.33331 20.4515 4.33331 22.75"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
             </div>
         </nav>
     </header>
     <main>
-        <section class="section_home">
+        <section class="bot_presentation">
             <div class="info">
                 <div>
                     <h1>O Bot de Vendas Perfeito para o Seu Servidor</h1>
